@@ -45,8 +45,3 @@ document.querySelectorAll(".list-menu a").forEach((link) => {
     });
   });
 });
-
-// Tampilkan semua mobil saat halaman dimuat
-document.querySelectorAll(".car-item").forEach((item) => {
-  item.style.display = "block";
-});
