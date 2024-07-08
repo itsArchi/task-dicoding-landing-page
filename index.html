@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>En Arrière</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/arriere.png" type="png">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="./assets/arriere.png" alt="logo" height="60px">
+            <span style="font-size: 0px; padding-left: 10px;">En Arrière</span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#parallaxPertama">Home</a>
+                </li>
+                <li>
+                    <a href="#parallaxKedua">About</a>
+                </li>
+                <li>
+                    <a href="#ParallaxKetiga">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="parallaxPertama" class="parallax pertama">
+            <div class="main-page">
+                <div class="main-image">
+                    <img src="./assets/arriereBW.png" alt="arriere-background" class="main-image">
+                </div>
+                <div class="main-banner">
+                    <h2>Online Community Base on Discord</h2>
+                    <p class="main-banner-text">News, Gamaing, General Chat and more. En Arrière is a community based on the theme of journalism and constantly evolving news & aiming to connect people.</p>
+                    <p>Join and be friends</p>
+                    <div class="button-join">
+                        <a href="https://discord.gg/arriere" class="logo-button">
+                            <img src="./assets/discord.png" />
+                            <p class="text">Join Now!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="parallaxKedua" class="parallax kedua">
+            <div class="content">
+                <div>
+                <h2 class="content-title">What's on Our Community Today</h2>
+                <p>
+                    Find out what's on our server, see what's on it. You can find various topics, news, friends, games, giveaways and others
+                </p>
+                <button class="button-explore" onclick="linkDiscord()">Explore Now!</button>
+                </div>
+                <div class="carousel">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide--one">
+                        <div>
+                        <h2>Social</h2>
+                        <button class="swiper-button" onclick="linkDiscord()">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--two">
+                        <div>
+                        <h2>Giveaway</h2>
+                        <button class="swiper-button" onclick="linkDiscord()">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--three">
+                        <div>
+                        <h2>Topics</h2>
+                        <button class="swiper-button" onclick="linkDiscord()">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--four">
+                        <div>
+                        <h2>Mini Games</h2>
+                        <button class="swiper-button" onclick="linkDiscord()">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--five">
+                        <div>
+                        <h2>Partner</h2>
+                        <button class="swiper-button" onclick="linkDiscord()">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--six">
+                        <div>
+                        <h2>Voice Room</h2>
+                        <button class="swiper-button" onclick="linkDiscord()">Explore</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ParallaxKetiga" class="parallax ketiga">
+            <article class="info">
+                <div class="info-discord">
+                    <h2>What Is Discord</h2>
+                    <p>Discord is a voice, video, and text chat app that's used by tens of millions of people ages 13+ to talk and hang out with their communities and friends.</p><br>
+                    <br>
+                    <p class="paragrafDeleteMobile">People use Discord daily to talk about many things, ranging from art projects and family trips to homework and mental health support. It's a home for communities of any size, but it's most widely used by small and active groups of people who talk regularly.</p><br>
+                    <br>
+                    <p>and En Arrière is a community based on the theme of detention and constantly evolving news & aiming to connect people.
+                    </p>
+                    <button class="button-explore" onclick="linkDiscord()">Join En Arrière!</button>
+                </div>
+                
+                <aside class="profile">
+                    <div class="profile-card">
+                        <h2>About Me</h2>
+                            <img class="foto">
+                                <img src="./assets/profile.jpeg" />
+                                <!-- <figcaption>`Archi-</figcaption> -->
+                            </img>
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>Name</th>
+                                <td>Noer Rohim</td>
+                            </tr>
+                            <tr>
+                                <th>Place and Date of Birth</th>
+                                <td>Bekasi, 28 January 2000</td>
+                            </tr>
+                            <tr>
+                                <th>Occupation</th>
+                                <td>Collage Student</td>
+                            </tr>
+                            <tr>
+                                <th>Major</th>
+                                <td>Information System</td>
+                            </tr>
+                        </table>
+                    </div>
+                </aside>
+            <article/>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created by Noer Rohim, DBS Dicoding Participant &#169; 2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
